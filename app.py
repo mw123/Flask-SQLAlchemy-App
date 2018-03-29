@@ -10,7 +10,7 @@ db = SQLAlchemy(app)
 
 @app.route('/')
 def root():
-    return 'Game Hive Player API'
+    return 'Player API'
 
 
 ################################## model definitions ################################
